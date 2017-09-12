@@ -1,0 +1,38 @@
+{
+    "local": {
+        "projectInfo": {
+            "appName": "ps-giftcard-security",
+            "env": "local"
+        },
+        "baseURL": "http://localhost:9001",
+        "clientId": "77acd90b-6386-4f96-88cd-d56c4903b00c",
+        "authDomainURL": "https://auth.login.run-np.homedepot.com"
+    },
+    "dev": {
+        "projectInfo": {
+            "appName": "ps-giftcard-security",
+            "env": "dev"
+        },
+        "baseURL": "https://ps-giftcard-ui-dev.apps-np.homedepot.com",
+        "clientId": "77acd90b-6386-4f96-88cd-d56c4903b00c",
+        "authDomainURL": "https://auth.login.run-np.homedepot.com"
+    },
+    "qa": {
+        "projectInfo": {
+          "appName": "ps-giftcard-security",
+          "env": "qa"
+        },
+        "baseURL": "https://ps-giftcard-ui-qa.apps-np.homedepot.com",
+        "clientId": "737c59e8-36f5-4f97-8608-1d6832df3987",
+        "authDomainURL": "https://auth.login.run-np.homedepot.com"
+    },
+    "pr": {
+        "projectInfo": {
+            "appName": "ps-giftcard-security",
+            "env": "pr"
+        },
+        "baseURL": "TBD",
+        "clientId": "TBD",
+        "authDomainURL": "TBD"
+    }
+}

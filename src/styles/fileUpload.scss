@@ -1,0 +1,48 @@
+.inputFile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+}
+
+.inputFile {
+  + label {
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 0 2px 0;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: text-top;
+    width: 100%;
+  }
+}
+
+.inputFile {
+  + label span {
+    width: 100%;
+    min-height: 2em;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: text-top;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 18px;
+    color: #C7C7CD;
+  }
+}
+
+.inputFile {
+  + label strong {
+    height: 100%;
+    color: #f96302;
+    background-color: #fbfbfb;
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    vertical-align: text-top;
+    float: right;
+  }
+}
